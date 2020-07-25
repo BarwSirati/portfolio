@@ -154,6 +154,7 @@ a {
   transition: transform 0.3s ease-out;
 }
 .side-drawer.open {
+  display: block;
   transform: translateY(0);
 }
 body {
@@ -357,9 +358,9 @@ li a {
   margin-top: 120px;
 }
 @media (max-width: 768px) {
-  .side-drawer {
+  /* .side-drawer {
     display: block;
-  }
+  } */
   .typed-res {
     margin-top: 80px;
   }
