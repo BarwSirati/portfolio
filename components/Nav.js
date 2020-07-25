@@ -61,6 +61,7 @@ export default function Nav() {
               textAlign: "center",
             }}
             className="font-size-3 mx-auto  my-1 text-white scale"
+            onClick={() => setIsOpen(!isOpen)}
           >
             Portfolio();
           </a>
@@ -74,6 +75,7 @@ export default function Nav() {
               textAlign: "center",
             }}
             className="font-size-3 mx-auto  my-1 text-white scale"
+            onClick={() => setIsOpen(!isOpen)}
           >
             Contact();
           </a>
