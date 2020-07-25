@@ -38,10 +38,7 @@ export default function Header() {
       <header className="header" id="header"></header>
       <div className="background text-center">
         <div className="img-logo mx-auto"></div>
-        <h1
-          style={{ marginTop: "120px" }}
-          className="text-white font-size-4-res"
-        >
+        <h1 className="text-white font-size-4-res typed-res">
           printf("{text[loop].substr(0, index)}");
         </h1>
       </div>
