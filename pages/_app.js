@@ -13,6 +13,8 @@ export default function CMApp({ Component }) {
   return (
     <div style={{ height: "100%" }}>
       <Head>
+        <meta property="og:image" content="logo.png" />
+
         <title>PORTFOLIO</title>
         <link rel="icon" href="logo.png" />
       </Head>
