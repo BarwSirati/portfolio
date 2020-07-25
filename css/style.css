@@ -142,7 +142,6 @@ a {
 .side-drawer {
   height: 100%;
   background: #343434;
-
   box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
@@ -154,8 +153,12 @@ a {
   transition: transform 0.3s ease-out;
 }
 .side-drawer.open {
-  display: block;
   transform: translateY(0);
+}
+@media (max-width: 768px) {
+  .side-drawer {
+    display: block;
+  }
 }
 body {
   margin: 0;

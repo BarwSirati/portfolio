@@ -80,7 +80,7 @@ export default function Nav() {
             Contact();
           </a>
         </div>
-        <div className="text-center" style={{ marginTop: "50px" }}>
+        <div className="text-center">
           <button
             type="button"
             className="button"
