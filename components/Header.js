@@ -38,7 +38,7 @@ export default function Header() {
       <header className="header" id="header"></header>
       <div className="background text-center">
         <div className="img-logo mx-auto"></div>
-        <h1 className="text-white font-size-4-res typed-res">
+        <h1 className="text-white font-size-res typed-res">
           printf("{text[loop].substr(0, index)}");
         </h1>
       </div>
