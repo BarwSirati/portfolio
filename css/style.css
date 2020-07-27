@@ -154,11 +154,11 @@ a {
   width: 100%;
   display: none;
   z-index: 200;
-  transform: translateY(-100%);
+  transform: translateX(-100%);
   transition: transform 0.3s ease-out;
 }
 .side-drawer.open {
-  transform: translateY(0);
+  transform: translateX(0);
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
