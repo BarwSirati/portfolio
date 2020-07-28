@@ -6,20 +6,20 @@ export default function Footer() {
       <section id="footer">
         <footer className="footer">
           <div className="w-100 flex">
-            <div className="w-50-res">
+            <div className="w-50-res footer-box">
               <h1 className="text-white font-size-1 text-center">LOCATION</h1>
               <h1 className="text-white font-size-2 text-center">
                 3 Moo.5, Tambon Thung Kong, Amphur Kanchanadit, <br /> Surat
                 Thani, 84290
               </h1>
             </div>
-            <div className="w-50-res">
-              <h1 className="text-white font-size-2 text-center">
+            <div className="w-50-res footer-box">
+              <h1 className="text-white font-size-1 text-center">
                 AROUND THE WEB
               </h1>
               <div
                 style={{ alignItems: "center !important" }}
-                className="w-100"
+                className="w-100 mt-2"
               >
                 <div
                   style={{ display: "flex", alignItems: "center !important" }}
@@ -41,7 +41,7 @@ export default function Footer() {
                         style={{
                           width: "20px",
                           marginLeft: "13.5px",
-                          marginTop: "10px",
+                          marginTop: "9px",
                         }}
                       >
                         <path
@@ -66,8 +66,8 @@ export default function Footer() {
                         viewBox="0 0 448 512"
                         style={{
                           width: "23px",
-                          marginLeft: "13.5px",
-                          marginTop: "12px",
+                          marginLeft: "12.5px",
+                          marginTop: "9px",
                         }}
                       >
                         <path

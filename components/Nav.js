@@ -6,7 +6,7 @@ export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <section>
-      <div class="navbar">
+      <div className="navbar">
         <div className="nav-res mx-auto  display-flex">
           <div className="left-menu">
             <a href="#header">
@@ -18,27 +18,28 @@ export default function Nav() {
               </h1>
             </a>
           </div>
+
           <span
             className="font-size-3 hamburger"
             onClick={() => setIsOpen(!isOpen)}
           >
             &#9776;
           </span>
+
           <div className="right-menu">
             <Scrollspy
-              items={["portfolio", "contact"]}
+              items={["activities", "certificates"]}
               currentClassName="active"
               className="inline-block"
-              style={{ marginTop: "22px" }}
             >
               <li className="inline-block li-item">
-                <a href="#portfolio" className="font-size-1">
-                  Portfolio();
+                <a href="#activities" className="font-size-1">
+                  Activities();
                 </a>
               </li>
               <li className="inline-block li-item">
-                <a href="#contact" className="font-size-1">
-                  Contact();
+                <a href="#certificates" className="font-size-1">
+                  Certificates();
                 </a>
               </li>
             </Scrollspy>
@@ -52,35 +53,35 @@ export default function Nav() {
           style={{ display: "flex", flexDirection: "column" }}
         >
           <a
-            href="#portfolio"
+            href="#activities"
             style={{
               background: "#ff7c2c",
-              padding: "5%",
-              width: "40%",
+              padding: "15px",
+              width: "250px",
               borderRadius: "10px",
               textAlign: "center",
             }}
             className="font-size-3 mx-auto  my-1 text-white scale"
             onClick={() => setIsOpen(!isOpen)}
           >
-            Portfolio();
+            Activities();
           </a>
           <a
-            href="#contact"
+            href="#certificates"
             style={{
               background: "#ff7c2c",
-              padding: "5%",
-              width: "40%",
+              padding: "15px",
+              width: "250px",
               borderRadius: "10px",
               textAlign: "center",
             }}
             className="font-size-3 mx-auto  my-1 text-white scale"
             onClick={() => setIsOpen(!isOpen)}
           >
-            Contact();
+            Certificates();
           </a>
         </div>
-        <div className="text-center">
+        <div className="text-center mt-2">
           <button
             type="button"
             className="button"
