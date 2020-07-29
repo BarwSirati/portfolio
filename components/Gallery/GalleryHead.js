@@ -5,17 +5,12 @@ function GalleryHead({ title }) {
   return (
     <>
       <h1 className="text-center font-size-5">{title}</h1>
-      <div
-        className="mx-auto text-center"
-        style={{ display: "flex", marginTop: "30px" }}
-      >
-        <div className="w-50">
-          <div className="line1"></div>
+      <div className="divider-custom">
+        <div className="divider-custom-line"></div>
+        <div className="divider-custom-icon">
+          <IconStar />
         </div>
-        <IconStar />
-        <div className="w-50">
-          <div className="line2"></div>
-        </div>
+        <div className="divider-custom-line"></div>
       </div>
     </>
   );

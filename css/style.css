@@ -208,7 +208,31 @@ a {
   transform: scale(1.1);
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-
+.divider-custom {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divider-custom .divider-custom-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #062f3c;
+  border-radius: 1rem;
+  border-color: #062f3c !important;
+}
+.divider-custom .divider-custom-line:first-child {
+  margin-right: 1rem;
+}
+.divider-custom .divider-custom-line:last-child {
+  margin-left: 1rem;
+}
+.divider-custom .divider-custom-icon {
+  color: #000 !important;
+  font-size: 2rem;
+}
 @media (max-width: 768px) {
   .side-drawer {
     display: block;

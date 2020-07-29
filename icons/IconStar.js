@@ -12,7 +12,7 @@ function IconStar() {
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 576 512"
       data-fa-i2svg
-      style={{ width: "40px", marginTop: "-18px" }}
+      style={{ width: "40px" }}
     >
       <path
         fill="currentColor"
