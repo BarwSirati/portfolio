@@ -266,9 +266,6 @@ body {
   background: transparent !important;
   border: none !important;
 }
-::-webkit-scrollbar {
-  width: 0;
-}
 
 .scale {
   transition: all 0.2s ease-in-out;

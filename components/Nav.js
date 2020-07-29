@@ -25,7 +25,7 @@ export default function Nav() {
           >
             &#9776;
           </span>
-
+          
           <div className="right-menu">
             <Scrollspy
               items={["activities", "certificates"]}
