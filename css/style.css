@@ -356,9 +356,9 @@ li a {
 .img-logo {
   width: 400px;
   height: 400px;
-
   background-image: url("../img/logo.png");
   background-size: cover;
+  top: 80px;
   position: relative;
 }
 .font-size-4-res {
@@ -373,24 +373,7 @@ li a {
 .container-fluid {
   width: 100% !important;
 }
-.line1 {
-  width: 100%;
-  max-width: 7rem;
-  height: 0.25rem;
-  background-color: #062f3c;
-  border-radius: 1rem;
-  border-color: #062f3c !important;
-  float: right;
-}
-.line2 {
-  width: 100%;
-  max-width: 7rem;
-  height: 0.25rem;
-  background-color: #062f3c;
-  border-radius: 1rem;
-  border-color: #062f3c !important;
-  float: left;
-}
+
 .rounded1 {
   width: 80px;
   height: 80px;
