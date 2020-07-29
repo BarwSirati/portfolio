@@ -20,6 +20,8 @@ const activities = [
   "activities/14.jpg",
   "activities/15.jpg",
   "activities/16.jpg",
+  "activities/17.jpg",
+  "activities/18.jpg",
 ];
 const certificates = [
   "certificates/1.jpg",
