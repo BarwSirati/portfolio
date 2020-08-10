@@ -22,6 +22,10 @@ const activities = [
   "activities/16.jpg",
   "activities/17.jpg",
   "activities/18.jpg",
+  "activities/19.jpg",
+  "activities/20.jpg",
+  "activities/21.jpg",
+  "activities/22.jpg",
 ];
 const certificates = [
   "certificates/1.jpg",
