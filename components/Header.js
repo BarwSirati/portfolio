@@ -8,7 +8,7 @@ export default function Header() {
   const text = ["Welcome,", "My name is", "Sirati Hirunthani."];
 
   useEffect(() => {
-    const typingTime = 100;
+    const typingTime = 150;
     const deletingTime = 50;
     const delay = 1000;
 
@@ -35,13 +35,14 @@ export default function Header() {
 
   return (
     <div>
-      <header className="header" id="header"></header>
-      <div className="background text-center">
-        <div className="img-logo mx-auto"></div>
-        <h1 className="text-white font-size-res typed-res">
-          printf("{text[loop].substr(0, index)}");
-        </h1>
-      </div>
+      <header className="header masthead" id="header">
+        <div className="container d-flex align-items-center flex-column">
+          <div className="masthead-avatar img-logo"></div>
+          <h1 className="text-white font-size-res typed-res top">
+            printf("{text[loop].substr(0, index)}");
+          </h1>
+        </div>
+      </header>
     </div>
   );
 }
