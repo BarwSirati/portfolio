@@ -66,7 +66,7 @@ export default function Footer() {
                         viewBox="0 0 448 512"
                         style={{
                           width: "23px",
-                          marginLeft: "12.5px",
+                          marginLeft: "11.5px",
                           marginTop: "9px",
                         }}
                       >
