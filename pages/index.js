@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Contact from "../components/Contact";
+import Profile from "../components/Profile";
 import { Gallery } from "../components/";
 
 const activities = [
@@ -26,6 +27,8 @@ const activities = [
   "activities/20.jpg",
   "activities/21.jpg",
   "activities/22.jpg",
+  "activities/23.jpg",
+  "activities/24.jpg",
 ];
 const certificates = [
   "certificates/1.jpg",
@@ -46,12 +49,16 @@ const certificates = [
   "certificates/16.jpg",
   "certificates/17.jpg",
   "certificates/18.jpg",
+  "certificates/19.jpg",
+  "certificates/20.jpg",
+  "certificates/21.jpg",
   "certificates/3.jpg",
 ];
 
 export default function index() {
   return (
     <>
+      <Profile />
       <Gallery id="activities" title="Activities();" items={activities} />
       <Gallery id="certificates" title="Certificates();" items={certificates} />
       <Contact />

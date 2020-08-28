@@ -25,13 +25,18 @@ export default function Nav() {
           >
             &#9776;
           </span>
-          
+
           <div className="right-menu">
             <Scrollspy
-              items={["activities", "certificates"]}
+              items={["profile", "activities", "certificates"]}
               currentClassName="active"
               className="inline-block"
             >
+              <li className="inline-block li-item">
+                <a href="#profile" className="font-size-1">
+                  Profile();
+                </a>
+              </li>
               <li className="inline-block li-item">
                 <a href="#activities" className="font-size-1">
                   Activities();
@@ -52,6 +57,20 @@ export default function Nav() {
           className="mx-auto text-center"
           style={{ display: "flex", flexDirection: "column" }}
         >
+          <a
+            href="#profile"
+            style={{
+              background: "#ff7c2c",
+              padding: "15px",
+              width: "250px",
+              borderRadius: "10px",
+              textAlign: "center",
+            }}
+            className="font-size-3 mx-auto  my-1 text-white scale"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            Profile();
+          </a>
           <a
             href="#activities"
             style={{

@@ -8,7 +8,7 @@ export default function Header() {
   const text = ["Welcome,", "My name is", "Sirati Hirunthani."];
 
   useEffect(() => {
-    const typingTime = 150;
+    const typingTime = 100;
     const deletingTime = 50;
     const delay = 1000;
 
