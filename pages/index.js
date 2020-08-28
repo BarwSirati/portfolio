@@ -43,15 +43,15 @@ const certificates = [
   "certificates/10.jpg",
   "certificates/11.jpg",
   "certificates/12.jpg",
-  "certificates/13.jpg",
-  "certificates/14.jpg",
-  "certificates/15.jpg",
   "certificates/16.jpg",
   "certificates/17.jpg",
   "certificates/18.jpg",
   "certificates/19.jpg",
   "certificates/20.jpg",
   "certificates/21.jpg",
+  "certificates/13.jpg",
+  "certificates/14.jpg",
+  "certificates/15.jpg",
   "certificates/3.jpg",
 ];
 
