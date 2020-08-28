@@ -53,7 +53,7 @@ export default function Footer() {
                   </div>
                   <div className="ig  mr-auto">
                     <a
-                      href="https://www.instagram.com/l3arw/?hl=en"
+                      href="https://www.instagram.com/l3al2w/?hl=th"
                       target="_blank"
                     >
                       <svg
