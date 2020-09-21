@@ -29,9 +29,10 @@ const activities = [
   "activities/22.jpg",
   "activities/23.jpg",
   "activities/24.jpg",
+  "activities/25.jpg",
 ];
 const certificates = [
-  "certificates/1.jpg",
+  "certificates/22.jpg",
   "certificates/1.jpg",
   "certificates/2.jpg",
   "certificates/4.jpg",
@@ -59,8 +60,8 @@ export default function index() {
   return (
     <>
       <Profile />
-      <Gallery id="activities" title="Activities();" items={activities} />
-      <Gallery id="certificates" title="Certificates();" items={certificates} />
+      <Gallery id="activities" title="Activities();" items={activities} />{" "}
+      <Gallery id="certificates" title="Certificates();" items={certificates} />{" "}
       <Contact />
     </>
   );
