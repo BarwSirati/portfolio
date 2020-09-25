@@ -29,8 +29,6 @@ const activities = [
   "activities/22.jpg",
   "activities/23.jpg",
   "activities/24.jpg",
-  "activities/25.jpg",
-  "activities/26.jpg",
 ];
 const certificates = [
   "certificates/22.jpg",
