@@ -195,7 +195,9 @@ a {
   flex-wrap: wrap;
 }
 .wrap {
-  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -376,8 +378,10 @@ li a {
 }
 
 .img-logo2 {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
+  margin-right: auto;
+  margin-left: auto;
   background-image: url("../img/logo2.jpg");
   border-radius: 50%;
   background-size: cover;
@@ -385,7 +389,6 @@ li a {
   border: 10px solid #fff;
   box-shadow: 0px 0px 2px 2px rgba(200, 197, 200, 1);
   position: relative;
-  margin-left: auto;
 }
 .font-size-4-res {
   font-size: 3em;
@@ -482,17 +485,21 @@ li a {
 .img-logo-flex {
   width: 35%;
   margin-left: auto;
-  margin-right: 30px;
+  margin-right: auto;
 }
 .text-flex {
-  width: 60%;
+  width: 100%;
+  margin: 20px 0px 0px 0px !important;
 }
 .text-border {
   border-radius: 10px;
-  width: 570px;
+  width: 700px;
   padding: 20px;
   background: #fff;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
+
 @media (max-width: 768px) {
   .text-border {
     border-radius: 10px;
@@ -506,14 +513,16 @@ li a {
   .img-logo2 {
     width: 250px;
     height: 250px;
-    margin-right: auto;
-    margin-left: auto;
+    text-align: center !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
   }
   .img-logo-flex {
     width: 100%;
     margin: 0px !important;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
   .text-flex {
     width: 100%;
